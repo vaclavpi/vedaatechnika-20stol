@@ -1,63 +1,159 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Časová osa</title>
+    <title>Věda a technika 20. století</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
-        <h1>Nadpis Stránky</h1>
-        <p>Popis stránky s nějakým hezkým textem.</p>
+    <div class="container">
+        <header>
+            <img src="https://images.unsplash.com/photo-1607353221690-ef64615a3a8c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGhpc3RvcnklMjB0ZWNobm9sb2d5fGVufDB8fDB8fHww" alt="" class="header-image">
+            <div class="overlay">
+                <h1>Věda a technika 20. století</h1>
+                <p>20. století přineslo mnoho revolučních vynálezů a technických pokroků, které zásadně ovlivnily životy lidí po celém světě. Pojďme se podívat na klíčové události a inovace rozdělené podle jednotlivých desetiletí.</p>
+            
+             <!-- Horizontální časová osa -->
+        <div class="timeline-horizontal-container">
+            <div class="horizontal-line"></div>
+            <div class="timeline-horizontal">
+                <a href="#1903" class="bubble">1903</a>
+                <a href="#1913" class="bubble">1913</a>
+                <a href="1928" class="bubble">1928</a>
+                <a href="#1938" class="bubble">1938</a>
+                <a href="#1943" class="bubble">1943</a>
+                <a href="#1969" class="bubble">1969</a>
+                <a href="#1973" class="bubble">1973</a>
+                <a href="#1983" class="bubble">1983</a>
+                <a href="#1991" class="bubble">1991</a>
+                <a href="#2000" class="bubble">2000</a>
+            </div>
+        </div>
     </div>
+        </header>
 
-    <div class="timeline-container">
+    
+
+        <!-- Vertikální časová osa -->
         <div class="timeline-vertical">
-            <ul>
-                <li><button onclick="showContent(0)">2020</button></li>
-                <li><button onclick="showContent(1)">2021</button></li>
-                <li><button onclick="showContent(2)">2022</button></li>
-                <li><button onclick="showContent(3)">2023</button></li>
-            </ul>
-        </div>
-        <div class="content-section">
-            <div class="content" id="content-0">
-                <div class="block">
-                    <h2>Rok 2020</h2>
-                    <p>Události roku 2020...</p>
-                    <img src="image1.jpg" alt="Obrázek 2020">
+            <div class="vertical-line"></div>
+            <div id="1903" class="event">
+                <div class="bubble-vertical">1903</div>
+                <div class="content left">
+                    <h2>Počátky letectví a elektřiny
+                    </h2>
+                    <div class="content-line"></div>
+                    <img src="https://images.unsplash.com/photo-1574787930511-8cc7a3dd36ca?q=80&w=2139&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>Na začátku 20. století došlo k průlomovému pokroku v oblasti letectví. V roce 1903 bratři Wrightové uskutečnili první úspěšný let s motorovým letadlem, což otevřelo nové možnosti pro dopravu a spojení mezi národy. Také v této době začala elektrifikace domácností, což změnilo každodenní život. Elektrické osvětlení se stalo běžným standardem, a to přispělo k delším pracovním hodinám a novým formám zábavy.
+                    </p>
                 </div>
             </div>
-            <div class="content" id="content-1" style="display:none;">
-                <div class="block">
-                    <h2>Rok 2021</h2>
-                    <p>Události roku 2021...</p>
-                    <img src="image2.jpg" alt="Obrázek 2021">
+
+            <div id="1913" class="event">
+                <div class="bubble-vertical">1913</div>
+                <div class="content right">
+                    <h2>Vznik automobilismu a výroba</h2>
+                    <div class="content-line"></div>
+                    <img src="https://images.unsplash.com/photo-1703823682031-406891577e38?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>V roce 1913 Henry Ford zavedl pásovou výrobu, což umožnilo masovou produkci automobilů. Model T se stal dostupným pro širokou veřejnost a revoluční změny v dopravě vedly k urbanizaci a změně životního stylu lidí. Tato doba také přinesla první pokusy o leteckou dopravu pro veřejnost, což položilo základy pro moderní letecký průmysl.
+
+                    </p>
                 </div>
             </div>
-            <div class="content" id="content-2" style="display:none;">
-                <div class="block">
-                    <h2>Rok 2022</h2>
-                    <p>Události roku 2022...</p>
-                    <img src="image3.jpg" alt="Obrázek 2022">
+
+            <div id="1928" class="event">
+                <div class="bubble-vertical">1928</div>
+                <div class="content left">
+                    <h2>Rozvoj komunikací a medicíny</h2>
+                    <div class="content-line"></div>
+                    <img src="https://images.unsplash.com/photo-1576669802218-d535933f897c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D    " alt="">
+                    <p>V tomto desetiletí se objevily nové komunikační technologie, jako je rádio, které umožnilo přenos informací na velké vzdálenosti. Rádio se rychle stalo populární formou zábavy a informačního kanálu. V medicíně došlo k významným objevům, jako je vývoj penicilinu, který zahájil éru antibiotik a dramaticky změnil léčbu infekčních chorob.
+                    </p>
                 </div>
             </div>
-            <div class="content" id="content-3" style="display:none;">
-                <div class="block">
-                    <h2>Rok 2023</h2>
-                    <p>Události roku 2023...</p>
-                    <img src="image4.jpg" alt="Obrázek 2023">
+
+            <div id="1913" class="event">
+                <div class="bubble-vertical">1938</div>
+                <div class="content right">
+                    <h2>Druhá světová válka a technologické inovace</h2>
+                    <div class="content-line"></div>
+                    <img src="https://images.unsplash.com/photo-1629706168311-094a90834bb3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8b2xkJTIwY29tcHV0ZXJ8ZW58MHx8MHx8fDA%3D">
+                    <p>Druhá světová válka přinesla řadu technologických inovací, včetně radarových systémů a pokročilých letadel. Vojenský výzkum vedl k mnoha civilním aplikacím po válce, jako jsou pokroky v elektronice a počítačové technologii. Tato doba také přinesla první (respektive nulté) počítačové stroje, které začaly měnit způsob, jakým lidé pracují s informacemi.
+                    </p>
                 </div>
             </div>
-        </div>
-        <div class="timeline-horizontal">
-            <ul>
-                <li><button onclick="showContent(0)">2020</button></li>
-                <li><button onclick="showContent(1)">2021</button></li>
-                <li><button onclick="showContent(2)">2022</button></li>
-                <li><button onclick="showContent(3)">2023</button></li>
-            </ul>
+
+            <div id="1943" class="event">
+                <div class="bubble-vertical">1943</div>
+                <div class="content left">
+                    <h2>Počítače a vesmírný výzkum</h2>
+                    <div class="content-line"></div>
+                    <img src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>Po skončení druhé světové války se rozvíjely počítače jako nástroj pro výzkum a vývoj. V roce 1943 byl vyvinut první elektronický počítač ENIAC. Tato dekáda také zahájila vesmírný závod, který vyvrcholil vysláním prvního umělého satelitu Sputnik 1 v roce 1957, což vedlo k revoluci v oblasti vědy a techniky. 
+                    </p>
+                </div>
+            </div>
+
+            <div id="1969" class="event">
+                <div class="bubble-vertical">1969</div>
+                <div class="content right">
+                    <h2>Rozvoj internetu a telekomunikací</h2>
+                    <div class="content-line"></div>
+                    <img src="https://images.unsplash.com/photo-1521106047354-5a5b85e819ee?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>V 50. letech 20. století se začal vyvíjet koncept internetu. V roce 1969 byl vytvořen ARPANET, první síť, která položila základy pro dnešní internet. V oblasti telekomunikací došlo k zavedení telefonních sítí, které umožnily lidem komunikovat na dálku rychleji a efektivněji.
+
+                    </p>
+                </div>
+            </div>
+
+            <div id="1973" class="event">
+                <div class="bubble-vertical">1973</div>
+                <div class="content left">
+                    <h2> Vznik osobních počítačů a mobilní technologie
+                    </h2>
+                    <div class="content-line"></div>
+                    <img src="https://images.unsplash.com/photo-1549477614-67159c587b40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    <p>V 60. letech se začaly objevovat první osobní počítače, které postupně pronikaly do domácností. V roce 1973 byl představen první mobilní telefon, což znamenalo začátek éry mobilní komunikace. Tyto technologie změnily způsob, jakým lidé pracují, komunikují a tráví volný čas.</p>
+                </div>
+            </div>
+
+
+            <div id="1983" class="event">
+                <div class="bubble-vertical">1983</div>
+                <div class="content right">
+                    <h2>Internet a multimédia</h2>
+                    <div class="content-line"></div>
+                    <img src="https://plus.unsplash.com/premium_photo-1677448733687-2dc36bd815de?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                    <p>V 70. letech se internet stal dostupnějším a začal se rozvíjet koncept multimediální komunikace. V roce 1983 byla zavedena doménová systém DNS, což usnadnilo přístup k informacím na internetu. Také se začaly vyvíjet první grafické uživatelské rozhraní, což zpřístupnilo počítače širší veřejnosti.
+                    </p>
+                </div>
+            </div>
+
+            <div id="1991" class="event">
+                <div class="bubble-vertical">1991</div>
+                <div class="content left">
+                    <h2> Globální komunikace a mobilní telefonie
+                    </h2>
+                    <div class="content-line"></div>
+                    <img src="https://images.unsplash.com/photo-1599385655880-3bfbe2f0d55c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3NtfGVufDB8fDB8fHww">
+                    <p>V 80. letech se mobilní telefony staly běžnou součástí života. Nové technologie, jako je GSM, usnadnily mobilní komunikaci. Internet se začal rozšiřovat a v roce 1991 byla spuštěna první webová stránka, což znamenalo revoluci v oblasti informací a komunikace.</p>
+                </div>
+            </div>
+
+
+            <div id="2000" class="event">
+                <div class="bubble-vertical">2000</div>
+                <div class="content right">
+                    <h2>Vzestup internetu a digitální revoluce
+                    </h2>
+                    <div class="content-line"></div>
+                    <img src="https://images.unsplash.com/photo-1484662020986-75935d2ebc66?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q0R8ZW58MHx8MHx8fDA%3D" alt="">
+                    <p>Na přelomu století se internet stal nedílnou součástí každodenního života. E-mail, sociální sítě a internetové obchody změnily způsob, jakým lidé komunikují, pracují a nakupují. Digitální technologie, jako jsou CD a DVD, přinesly nové možnosti pro zábavu a vzdělávání.
+                    </p>
+                </div>
+            </div>
+
         </div>
     </div>
 
